@@ -14,7 +14,7 @@ This project demonstrates serial communication between a ROS2 node and an Arduin
 
 
 
-A custom ROS2 package (`my\_led\_pkg`) sends `"0"` and `"1"` over serial every 1 second (default).
+A custom ROS2 package (`my\\\_led\\\_pkg`) sends `"0"` and `"1"` over serial every 1 second (default).
 
 
 
@@ -56,15 +56,11 @@ The blink rate is configurable using a ROS2 parameter.
 
 
 
-| Parameter   | Description              | Default      |
+Parameters -
 
-|------------|--------------------------|-------------|
-
-| time\_period | Blink interval (seconds) | 1.0 |
-
-| port        | Serial port              | /dev/ttyACM0 |
-
-| baud\_rate   | UART speed               | 9600 |
+* time\_period (default value = 1.0 \[in seconds], Use positive float values only)
+* port (Change this according to your system)
+* baud\_rate (default value = 9600)
 
 
 

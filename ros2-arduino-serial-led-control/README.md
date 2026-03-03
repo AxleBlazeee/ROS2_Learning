@@ -10,7 +10,7 @@ This project demonstrates serial communication between a ROS2 node and an Arduin
 
 
 
-\## 🔧 Overview
+\# 🔧 Overview
 
 
 
@@ -31,7 +31,7 @@ The blink rate is configurable using a ROS2 parameter.
 
 
 
-\## 🧠 Technologies Used
+\# 🧠 Technologies Used
 
 
 
@@ -47,7 +47,7 @@ The blink rate is configurable using a ROS2 parameter.
 
 
 
-\## ⚙️ Parameters
+\# ⚙️ Parameters
 
 
 
@@ -65,7 +65,7 @@ Parameters -
 
 
 
-\## ▶️ Run the Node
+\# ▶️ Run the Node
 
 
 
@@ -93,7 +93,7 @@ ros2 run my_led_pkg blink_led
 
 
 
-\## 🔄 Change Blink Speed (Changing ROS2 Parameter)
+\# 🔄 Change Blink Speed (Changing ROS2 Parameter)
 
 
 
@@ -111,7 +111,7 @@ ros2 run my_led_pkg blink_led --ros-args -p time_period:=3.0
 
 
 
-\## 💡 What I Learned
+\# 💡 What I Learned
 
 
 

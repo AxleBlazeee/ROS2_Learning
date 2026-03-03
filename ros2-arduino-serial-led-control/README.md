@@ -69,7 +69,7 @@ Parameters -
 
 
 
-Download `my_led_pkg` package and put it inside your workspace's 'src' folder
+Download `my_led_pkg` package and put it inside your workspace's `src` folder
 
 
 

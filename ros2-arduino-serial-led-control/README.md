@@ -92,6 +92,8 @@ source install/setup.bash
 
 ros2 run my\_led\_pkg blink\_led
 
+```
+
 
 
 ---
@@ -110,7 +112,7 @@ Here we are modifying the time\_period parameter to change the blink interval:
 
 ros2 run my\_led\_pkg blink\_led --ros-args -p time\_period:=3.0
 
-
+```
 
 ---
 

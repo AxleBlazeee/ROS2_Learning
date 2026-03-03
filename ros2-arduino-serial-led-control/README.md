@@ -32,3 +32,60 @@ The blink rate is configurable using a ROS2 parameter.
 * Docker
 * usbipd (USB passthrough in WSL)
 * Arduino (UART communication)
+
+
+
+⚙️ Parameters
+
+
+
+| Parameter   | Description              | Default      |
+
+| ----------- | ------------------------ | ------------ |
+
+| time\_period | Blink interval (seconds) | 1.0          |
+
+| port        | Serial port              | /dev/ttyACM0 |
+
+| baud\_rate   | UART speed               | 9600         |
+
+
+
+▶️ Run the Node
+
+
+
+Inside your workspace:
+
+
+
+-colcon build
+
+-source install/setup.bash
+
+-ros2 run my\_led\_pkg blink\_led
+
+
+
+Change blink speed: ros2 run my\_led\_pkg blink\_led --ros-args -p time\_period:=0.5
+
+
+
+
+
+💡 What I Learned
+
+
+
+* Creating custom ROS2 packages
+* Serial communication using PySerial
+* ROS2 timers \& Duration
+* Parameter handling
+* USB passthrough with usbipd
+* Docker-based ROS2 development
+* Integrating ROS2 with real hardware
+
+
+
+
+

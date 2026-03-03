@@ -24,7 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "noLed_test = my_led_pkg.noLed_test:main",
             "blink_led = my_led_pkg.blink_led:main",
         ],
     },

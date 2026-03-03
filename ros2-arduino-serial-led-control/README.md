@@ -76,7 +76,11 @@ The blink rate is configurable using a ROS2 parameter.
 
 
 
-Inside your workspace:
+Download `my\_led\_pkg` package and put it inside your workspace's 'src' folder
+
+
+
+Inside your workspace (where src exists):
 
 
 
@@ -87,4 +91,44 @@ colcon build
 source install/setup.bash
 
 ros2 run my\_led\_pkg blink\_led
+
+
+
+---
+
+
+
+\## 🔄 Change Blink Speed (Changing ROS2 Parameter)
+
+
+
+Here we are modifying the time\_period parameter to change the blink interval:
+
+
+
+```bash
+
+ros2 run my\_led\_pkg blink\_led --ros-args -p time\_period:=3.0
+
+
+
+---
+
+
+
+\## 💡 What I Learned
+
+
+
+* Creating custom ROS2 packages
+* Serial communication using PySerial
+* ROS2 timers \& Duration
+* Parameter handling
+* USB passthrough with usbipd
+* Docker-based ROS2 development
+* Integrating ROS2 with real hardware
+
+
+
+---
 
